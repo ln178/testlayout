@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CoolGlowCard from "../components/animations/CoolGlowCard";
+import GlassyButton from "../components/animations/GlassyButton";
 
 export default function RoadmapShowcase({ onNavigate }) {
   // State quản lý Modal Live Demo và Toast Notification
@@ -45,6 +46,14 @@ export default function RoadmapShowcase({ onNavigate }) {
       category: "Text Animation",
       tag: "Typography",
       desc: "Tiêu đề xuất hiện từng chữ kèm màu sắc chuyển tầng gradient mượt mà.",
+    },
+    {
+      id: 5,
+      title: "Glassy Motion Button",
+      category: "Button Effect",
+      tag: "Glassmorphism",
+      desc: "Nút bấm hiệu ứng kính mờ có hiệu ứng phản hồi chuyển động theo hướng trỏ chuột.",
+      preview: <GlassyButton />,
     },
   ]);
 

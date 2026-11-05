@@ -3,12 +3,11 @@ import { motion } from "framer-motion";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import RoadmapShowcase from "./pages/RoadmapShowcase"; // 👈 Import trang Showcase mới
+import RoadmapShowcase from "./pages/RoadmapShowcase";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("home"); // 'home' | 'login' | 'register' | 'showcase'
 
-  // Hàm chuyển trang + cuộn mượt
   const handleNavigate = (page, sectionId = null) => {
     setCurrentPage(page);
     if (page === "home") {

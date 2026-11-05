@@ -360,7 +360,7 @@ export default function Home({ onNavigate }) {
           fontWeight: "500",
         }}
       >
-        <p>© 2026 DevMaster Vietnam. All rights reserved.</p>
+        <p>© 2026 DevMaster Vietnam. All rights reserved. Code by lnn178.</p>
       </footer>
     </div>
   );
